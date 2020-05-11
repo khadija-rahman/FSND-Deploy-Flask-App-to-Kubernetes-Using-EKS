@@ -34,7 +34,7 @@ def _logger():
 
 
 LOG = _logger()
-LOG.debug("Starting with log level: %s" % LOG_LEVEL )
+LOG.debug("Starting app with log level: %s" % LOG_LEVEL )
 APP = Flask(__name__)
 
 def require_jwt(function):
